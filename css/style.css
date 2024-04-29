@@ -1,0 +1,41 @@
+html * {
+    font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -ms-user-drag: none;
+}
+
+p {
+    margin: 16px 0 8px;
+}
+
+.group {
+    display: flex;
+    input[type="text"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        flex-basis: 50%;
+    }
+}
+
+input[type="checkbox"] {
+    margin: 16px 0 0 0;
+}
